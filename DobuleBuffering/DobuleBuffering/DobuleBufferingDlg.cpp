@@ -209,7 +209,6 @@ void CDobuleBufferingDlg::OnDrawImage()
 		DrawRect(&bufDC);
 	}
 	
-
 	// 임시 버퍼를 Picture Control에 그림
 	dc.BitBlt(0, 0, rect.Width(), rect.Height(), &bufDC, 0, 0, SRCCOPY);
 

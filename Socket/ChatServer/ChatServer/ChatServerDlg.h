@@ -31,6 +31,9 @@ protected:
 	DECLARE_MESSAGE_MAP()
 public:
 	CListBox m_ListForChat;
+	CListBox m_ListClient;
+
 	CListenSocket* m_pListenSocket;
-	afx_msg void OnDestroy();
+
+	afx_msg void OnDestroy();	
 };
